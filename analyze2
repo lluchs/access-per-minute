@@ -1,0 +1,2 @@
+#!/bin/sh
+grep -Poh '\d\d/\w+/20\d\d:\d\d:\d\d' access.* | tab '{@ -> sum(1)}'
